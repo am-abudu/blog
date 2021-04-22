@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>啊不都的自留地</title>
+  
+  <subtitle>大道至简，衍化至繁</subtitle>
+  <link href="http://www.abudu.top/atom.xml" rel="self"/>
+  
+  <link href="http://www.abudu.top/"/>
+  <updated>2021-04-22T14:35:59.932Z</updated>
+  <id>http://www.abudu.top/</id>
+  
+  <author>
+    <name>啊不都</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AMD YES？简评腾讯国内清凉</title>
+    <link href="http://www.abudu.top/archives/45996.html"/>
+    <id>http://www.abudu.top/archives/45996.html</id>
+    <published>2021-03-15T22:23:00.000Z</published>
+    <updated>2021-04-22T14:35:59.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>TX国内清凉最近做了个活动，不少老哥都“薅”到了一个。不过轻量这枚AMD EPYC<br>7K62十分引人注目，这里做出「简评」</p><h1 id="介绍"><a class="header-anchor" href="#介绍">¶</a> 介绍</h1><p><strong>TX</strong><a href="https://console.cloud.tencent.com/lighthouse"><strong>香港轻量</strong></a>：港澳台和海外统一提供30Mbps的带宽，月流量1024G起步的免备案机器，1核1G30Mbps的只要288一年，相比其他厂商还提供直连线路，网络质量业内无对手。</p><p>直达链接（NO AFF） <a href="https://console.cloud.tencent.com/lighthouse/">https://console.cloud.tencent.com/lighthouse/</a></p><h1 id="双方"><a class="header-anchor" href="#双方">¶</a> 双方</h1><p>1、华为云云耀云服务器，月付87.36元</p><p><img src="https://7.dusays.com/2021/03/29/9614747ccb9f6.png" alt=""></p><p>2、腾讯轻量应用服务器，月付50元</p><p><img src="https://7.dusays.com/2021/03/29/e25205b6d7b8c.png" alt=""></p><h1 id="Ping测试"><a class="header-anchor" href="#Ping测试">¶</a> Ping测试</h1><p>随缘跑了个Ping，看看就好，还是要以实际为准</p><p><img src="https://7.dusays.com/2021/03/29/b323ac453618c.png" alt=""></p><h2 id="网络测试（bench.sh）"><a class="header-anchor" href="#网络测试（bench.sh）">¶</a> 网络测试（<a href="http://bench.sh">bench.sh</a>）</h2><p>虽然同为国内服务器，但是测个网络还是测评中必不可少的，主要看一下带宽有没有多给或者少给之类的问题</p><p><img src="https://7.dusays.com/2021/03/29/380140c8f0b4e.png" alt=""></p><p>腾讯这边，不知道为什么，我成都的服务器被识别成北京了。。不过问题不大，可以看出，下行被限制成百兆了（但是不计算流量），上行跑满的4Mbps，没啥问题，硬盘是中规中矩的HDD的速度</p><p><img src="https://7.dusays.com/2021/03/29/fc4a36d743e39.png" alt=""></p><p>华为云的结果有些出乎我的意料，部分地区没有跑满1Mbps，下载也被限制到了10Mbps，虽然不限流量，但是1Mbps一个月也就只能跑300多G流量。。要我说不如弄个4Mbps舒服<br><img src="https://7.dusays.com/2021/03/29/15e44a43cfe4b.png" alt=""></p><h1 id="Lemonbench测试"><a class="header-anchor" href="#Lemonbench测试">¶</a> Lemonbench测试</h1><p>十分尴尬的是恰巧在我测试的这一天，我的云耀云服务器过期了。。于是乎这里只能放出腾讯的成绩<br><img src="https://7.dusays.com/2021/03/29/986f788b6c616.png" alt=""></p><p>完整成绩 <a href="https://paste.ubuntu.com/p/SfDsMTGzs6/">https://paste.ubuntu.com/p/SfDsMTGzs6/</a></p><p>可以看到CPU分数已经突破了1300分，对于一款清凉服务器这是相当不错的成绩了，可以看出AMD&amp;TX的牛x</p><h1 id="总结"><a class="header-anchor" href="#总结">¶</a> 总结</h1><p>在AMD的加持下，国内的TX清凉体现出了不错的成绩，新版本套餐也足够优惠，值得有需要的老哥购买</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;TX国内清凉最近做了个活动，不少老哥都“薅”到了一个。不过轻量这枚AMD EPYC&lt;br&gt;
+7K62十分引人注目，这里做出「简评」&lt;/p&gt;
+&lt;h1 id=&quot;介绍&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#介绍&quot;&gt;¶&lt;/a&gt; 介绍&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;TX&lt;/strong&gt;&lt;a href=&quot;https://console.cloud.tencent.com/lighthouse&quot;&gt;&lt;strong&gt;香港轻量&lt;/strong&gt;&lt;/a&gt;：港澳台和海外统一提供30Mbps的带宽，月流量1024G起步的免备案机器，1核1G30Mbps的只要288一年，相比其他厂商还提供直连线路，网络质量业内无对手。&lt;/p&gt;
+&lt;p&gt;直达链接（NO AFF） &lt;a href=&quot;https://console.cloud.tencent.com/lighthouse/&quot;&gt;https://console.cloud.tencent.com/lighthouse/&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="主机测评" scheme="http://www.abudu.top/categories/%E4%B8%BB%E6%9C%BA%E6%B5%8B%E8%AF%84/"/>
+    
+    
+    <category term="腾讯" scheme="http://www.abudu.top/tags/%E8%85%BE%E8%AE%AF/"/>
+    
+    <category term="国内" scheme="http://www.abudu.top/tags/%E5%9B%BD%E5%86%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【快讯】国外知名CDN Cloudflare疑拦截部分自选IP节点</title>
+    <link href="http://www.abudu.top/archives/12586.html"/>
+    <id>http://www.abudu.top/archives/12586.html</id>
+    <published>2021-03-15T22:23:00.000Z</published>
+    <updated>2021-04-22T14:35:59.932Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="背景"><a class="header-anchor" href="#背景">¶</a> 背景</h1><p>有消息称，国外知名CDN Cloudflare今日疑似拦截自选IP，众所周知，由于一些不可抗因素，Cloudflare在中国大陆访问速度极慢，于是有了一种称为“自选IP”的使用方法，简单概括即为利用Cloudflare的漏洞强制指向负载较低，距大陆较近的IP进行访问的提速，这种行为已经触及到了Cloudflare的利益，于是Cloudflare很可能进行相关漏洞的修复</p><h1 id="内容"><a class="header-anchor" href="#内容">¶</a> 内容</h1><p>经网友发现，使用“优选IP”的部分IP段已经被Cloudflare所拦截，拦截后页面上会提示1043Error的字样，届时网站无法访问<br><img src="https://7.dusays.com/2021/03/15/bae4a394c476e.png" alt=""><br>在国内知名论坛类似的话题一时间也是层出不穷，这也说明了这个问题并非少数，基本可以确认是Cloudflare官方所为<br><img src="https://7.dusays.com/2021/03/15/2942e0964ae23.png" alt=""></p><h1 id="如何避免？"><a class="header-anchor" href="#如何避免？">¶</a> 如何避免？</h1><p>目前看来只有172.64.228.*这个CDN网段段有拦截，不排除是Cloudflare方面小规模测试，以后可能会推广，所以建议各位切换回官方CNAME或DNS使用，防止被拦截影响网站访问及SEO<img src="https://cdn.jsdelivr.net/gh/2x-ercha/twikoo-magic@master/image/bilibili2233/%5B2233%E5%A8%98_%E5%96%9D%E6%B0%B4%5D.png" alt=""></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#背景&quot;&gt;¶&lt;/a&gt; 背景&lt;/h1&gt;
+&lt;p&gt;有消息称，国外知名CDN Cloudflare今日疑似拦截自选IP，众所周知，由于一些不可抗因素，Cloudflare在中国大陆访问速度极慢，于是有了一种称为“自选IP”的使用方法，简单概括即为利用Cloudflare的漏洞强制指向负载较低，距大陆较近的IP进行访问的提速，这种行为已经触及到了Cloudflare的利益，于是Cloudflare很可能进行相关漏洞的修复&lt;/p&gt;
+&lt;h1 id=&quot;内容&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#内容&quot;&gt;¶&lt;/a&gt; 内容&lt;/h1&gt;
+&lt;p&gt;经网友发现，使用“优选IP”的部分IP段已经被Cloudflare所拦截，拦截后页面上会提示1043Error的字样，届时网站无法访问&lt;br&gt;
+&lt;img src=&quot;https://7.dusays.com/2021/03/15/bae4a394c476e.png&quot; alt&gt;&lt;br&gt;
+在国内知名论坛类似的话题一时间也是层出不穷，这也说明了这个问题并非少数，基本可以确认是Cloudflare官方所为&lt;br&gt;
+&lt;img src=&quot;https://7.dusays.com/2021/03/15/2942e0964ae23.png&quot; alt&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="新闻资讯" scheme="http://www.abudu.top/categories/%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF/"/>
+    
+    
+    <category term="cdn" scheme="http://www.abudu.top/tags/cdn/"/>
+    
+    <category term="cloudflare" scheme="http://www.abudu.top/tags/cloudflare/"/>
+    
+    <category term="免费cdn" scheme="http://www.abudu.top/tags/%E5%85%8D%E8%B4%B9cdn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cloudflare自定义IP节点</title>
+    <link href="http://www.abudu.top/archives/18409.html"/>
+    <id>http://www.abudu.top/archives/18409.html</id>
+    <published>2020-12-15T22:23:00.000Z</published>
+    <updated>2021-04-22T14:35:59.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>Cloudflare是一家美国的CDN提供商，非常良心的提供免费的CDN，但是由于一些不可抗拒因素，国内的访问速度奇慢，所以我们需要用一些特殊的手段来自定义访问节点来提高速度</p><h2 id="使用Cloudflare Partner接入"><a class="header-anchor" href="#使用Cloudflare Partner接入">¶</a> 使用Cloudflare Partner接入</h2><p>用官方的Cloudflare是没办法CNAME接入的，要升级到biz版本（每月200刀）才能提供，这对于小站长实在是太贵了。。而且没达到我们白嫖的目的，所以我们要用Cloudflare Partner来CNAME接入</p><h2 id="注册/接入笨牛网"><a class="header-anchor" href="#注册/接入笨牛网">¶</a> 注册/接入笨牛网</h2><p>Cloudflare Partner的提供商有很多，这里就以笨牛网为例<br>打开笨牛网官网<a href="http://cdn.bnxb.com">cdn.bnxb.com</a>，点击登录/注册，输入你的cloudflare账户，点击域名管理<br><img src="https://ae01.alicdn.com/kf/He2902bc0e21a48dcb2bd6a6b17f66f6fl.jpg" alt=""><br>这时你会看到你已经官方接入的域名<br><img src="https://gitee.com/code-abudu/blogimage/raw/master/img/20200603131225.png" alt=""><br>点击域名进入管理界面，点击域名资料 - 变更接入 - 接入本站CNAME<br><img src="https://ae01.alicdn.com/kf/H3f0089dc078c4058b0516c44068fe1b2L.jpg" alt=""></p><h2 id="解析设置"><a class="header-anchor" href="#解析设置">¶</a> 解析设置</h2><p>将你的域名NS重新设置回DNS管理商（如DNSPOD，华为云DNS）<br>接着在笨牛网管理界面菜单点击上方的域名解析，添加你要解析的记录，在DNS管理商解析到cloudflare的ip即可<br><img src="https://shop.io.mi-img.com/app/shop/img?id=shop_5ded7a0f8bfb39548091ebda7c496c55.png" alt=""></p><h2 id="节点推荐"><a class="header-anchor" href="#节点推荐">¶</a> 节点推荐</h2><p>如果你不想折腾节点，<a href="http://xn--CNAMEcf-hc5k28vstedw8czoyc.oplog.cn">可以直接CNAME到cf.oplog.cn</a>，使用博主选好的节点<br>注意：国外线路请务必解析到cloudflare给你的CNAME节点，防止SSL翻车<br>百度云加速合作节点：<br>162.159.208.4-162.159.208.103<br>162.159.209.4-162.159.209.103<br>162.159.210.4-162.159.210.103<br>162.159.211.4-162.159.211.103<br>电信推荐使用上面的百度云加速节点或者104.22.3.117<br>移动节点推荐使用走香港百度云加速节点198.41.214.162<br>联通可以走104.20.157.0或者上面的百度云加速节点</p><h2 id="其他问题"><a class="header-anchor" href="#其他问题">¶</a> 其他问题</h2><ul><li>我的自选节点后SSL失效了<br>国外线路请务必解析到cloudflare给你的CNAME节点，不然有几率翻车，重新解析后尝试关闭SSL后重新开启</li><li>Error 1016 Origin DNS error<br>回源配置有问题。访问者只能找到 Cloudflare，但是 Cloudflare 找不到IP所对应的网站。请确保回源IP配置正确。</li></ul><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Cloudflare是一家美国的CDN提供商，非常良心的提供免费的CDN，但是由于一些不可抗拒因素，国内的访问速度奇慢，所以我们需要用一些特殊的手段来自定义访问节点来提高速度&lt;/p&gt;
+&lt;h2 id=&quot;使用Cloudflare Partner接入&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#使用Cloudflare Partner接入&quot;&gt;¶&lt;/a&gt; 使用Cloudflare Partner接入&lt;/h2&gt;
+&lt;p&gt;用官方的Cloudflare是没办法CNAME接入的，要升级到biz版本（每月200刀）才能提供，这对于小站长实在是太贵了。。而且没达到我们白嫖的目的，所以我们要用Cloudflare Partner来CNAME接入&lt;/p&gt;
+&lt;h2 id=&quot;注册/接入笨牛网&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#注册/接入笨牛网&quot;&gt;¶&lt;/a&gt; 注册/接入笨牛网&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="技术教程" scheme="http://www.abudu.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="cdn" scheme="http://www.abudu.top/tags/cdn/"/>
+    
+    <category term="cloudflare" scheme="http://www.abudu.top/tags/cloudflare/"/>
+    
+    <category term="免费cdn" scheme="http://www.abudu.top/tags/%E5%85%8D%E8%B4%B9cdn/"/>
+    
+    <category term="免费" scheme="http://www.abudu.top/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯云轻量应用服务器一键安装 Typecho 方法及测试</title>
+    <link href="http://www.abudu.top/archives/18410.html"/>
+    <id>http://www.abudu.top/archives/18410.html</id>
+    <published>2020-12-15T22:23:00.000Z</published>
+    <updated>2021-04-22T14:35:59.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>腾讯云香港轻量 VPS 带宽大，速度快，特别适用于建站，而近期腾讯云推出了 Typecho 的一键镜像，这里体验一下~</p><h1 id="Ads"><a class="header-anchor" href="#Ads">¶</a> Ads</h1><p>腾讯云香港轻量：港澳台和海外统一提供 30Mbps 的带宽，月流量 1024G 起步的免北岸机器，1 核 1G30Mbps 的只要 288 一年，相比其他厂商还提供直连线路，网络质量业内无对手。<br>直达链接 <a href="https://console.cloud.tencent.com/lighthouse/">https://console.cloud.tencent.com/lighthouse/</a></p><h1 id="安装方法"><a class="header-anchor" href="#安装方法">¶</a> 安装方法</h1><p>1 、 进入腾讯轻量应用服务器管理，点击进入你需要安装的服务器管理界面 <a href="https://console.cloud.tencent.com/lighthouse/instance/index">https://console.cloud.tencent.com/lighthouse/instance/index</a><br><img src="https://www.helloimg.com/images/2020/12/29/image540129ca5c30a3db.png" alt=""><br>2 、 点击重置应用<br><img src="https://www.helloimg.com/images/2020/12/29/image-15e5c2b0468054480.png" alt=""><br>3 、 点击 应用镜像-&gt;Typecho-&gt;下面的小勾勾-&gt;确定<br><img src="https://www.helloimg.com/images/2020/12/29/image-280f67519d370d450.png" alt=""><br>Tips：该操作会清除服务器数据，请及时做好备份<br>4 、 等待重装完毕，进行下一步骤<br>5 、 依次点击远程登录-&gt;一键登录-&gt;登录<br>然后输入以下代码，回车获取 Typecho 后台密码<br>cat ~lighthouse/credentials.txt<br><img src="https://www.helloimg.com/images/2020/12/29/image-3c048b014df50892a.png" alt=""><br>6 、 打开浏览器，输入 <a href="http://xn--zfru1ggxt">http://服务器</a> IP/admin/login.php ，使用刚刚的用户名密码登录，即可进入 Typecho 后台<br><img src="https://www.helloimg.com/images/2020/12/29/image-434b73f11d66db8f9.png" alt=""><br>至此，安装完毕</p><h1 id="相关环境"><a class="header-anchor" href="#相关环境">¶</a> 相关环境</h1><p>默认安装的环境如下，如果有有能力的 Dalao 还可以进一步 DIY<br>Typecho 1.1.0<br>Nginx 1.16.1<br>PHP 7.3.15<br>MariaDB 10.3.22</p><h1 id="使用体验"><a class="header-anchor" href="#使用体验">¶</a> 使用体验</h1><p>官方暂时没有相关的在线文件管理工具，但是我们可以使用 Xftp 进行文件管理，但是较为麻烦，可以搭配相关的在线面板之类的程序进行文件管理，而其他的体验跟正常的 Typecho 基本一致，无需过多评价</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;腾讯云香港轻量 VPS 带宽大，速度快，特别适用于建站，而近期腾讯云推出了 Typecho 的一键镜像，这里体验一下~&lt;/p&gt;
+&lt;h1 id=&quot;Ads&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Ads&quot;&gt;¶&lt;/a&gt; Ads&lt;/h1&gt;
+&lt;p&gt;腾讯云香港轻量：港澳台和海外统一提供 30Mbps 的带宽，月流量 1024G 起步的免北岸机器，1 核 1G30Mbps 的只要 288 一年，相比其他厂商还提供直连线路，网络质量业内无对手。&lt;br&gt;
+直达链接 &lt;a href=&quot;https://console.cloud.tencent.com/lighthouse/&quot;&gt;https://console.cloud.tencent.com/lighthouse/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;安装方法&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#安装方法&quot;&gt;¶&lt;/a&gt; 安装方法&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="技术教程" scheme="http://www.abudu.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="腾讯云" scheme="http://www.abudu.top/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="Typecho" scheme="http://www.abudu.top/tags/Typecho/"/>
+    
+    <category term="香港" scheme="http://www.abudu.top/tags/%E9%A6%99%E6%B8%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>继Google后知名CDN Cloudflare中国区域出现解析故障</title>
+    <link href="http://www.abudu.top/archives/1622.html"/>
+    <id>http://www.abudu.top/archives/1622.html</id>
+    <published>2020-12-15T21:52:00.000Z</published>
+    <updated>2021-04-22T14:35:59.932Z</updated>
+    
+    <content type="html"><![CDATA[<p><font color="red">更新：于20201215北京时间22:15，博主测试已经正常</font></p><blockquote><p>几十分钟前，在中国内地访问DNS托管于Cloudflare的网站开始出现解析失败，提示“此网站无法提供安全连接”。<br>包括 Cloudflare 官网在内的网站无法通过中国内地网络直接访问。大部分IP被解析到了位于中国内地的IP上，所有的解析均没有成功。<br>目前，还不清楚这是否为单一的技术故障。截止发稿时，部分地区的解析已经恢复正常，CF未就此发布状态异常警告。<br>——转自VPS信号旗</p></blockquote><h2 id="影响范围"><a class="header-anchor" href="#影响范围">¶</a> 影响范围</h2><p>据悉，此次故障主要影响的是由Cloudflare官方接入或第三方DNS接入的域名，会被强制解析至国内节点导致无法访问<br><img src="https://www.helloimg.com/images/2020/12/15/202012152157580c9c4391a48cdd97.png" alt=""></p><h2 id="官方反应"><a class="header-anchor" href="#官方反应">¶</a> 官方反应</h2><p>对此，官方的反应是<br><img src="https://www.helloimg.com/images/2020/12/15/20201215215146a3ec7e63c555beb6.png" alt=""><br>(翻译：已识别-问题已确定，正在实施修复)<br>也有群友询问了Cloudflare相关客服人员，得到的答复如下<br><img src="https://www.helloimg.com/images/2020/12/15/20201215220544171a3e6a972c9481.png" alt=""><br><img src="https://www.helloimg.com/images/2020/12/15/20201215220701f53c98fdefbe835d.png" alt=""><br>期待Cloudflare方面进一步解决…</p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;font color=&quot;red&quot;&gt;更新：于20201215北京时间22:15，博主测试已经正常&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;几十分钟前，在中国内地访问DNS托管于Cloudflare的网站开始出现解析失败，提示“此网站无法提供安全连接”。&lt;br&gt;
+包括 Cloudflare 官网在内的网站无法通过中国内地网络直接访问。大部分IP被解析到了位于中国内地的IP上，所有的解析均没有成功。&lt;br&gt;
+目前，还不清楚这是否为单一的技术故障。截止发稿时，部分地区的解析已经恢复正常，CF未就此发布状态异常警告。&lt;br&gt;
+——转自VPS信号旗&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;影响范围&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#影响范围&quot;&gt;¶&lt;/a&gt; 影响范围&lt;/h2&gt;
+&lt;p&gt;据悉，此次故障主要影响的是由Cloudflare官方接入或第三方DNS接入的域名，会被强制解析至国内节点导致无法访问&lt;br&gt;
+&lt;img src=&quot;https://www.helloimg.com/images/2020/12/15/202012152157580c9c4391a48cdd97.png&quot; alt&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="新闻资讯" scheme="http://www.abudu.top/categories/%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF/"/>
+    
+    
+    <category term="cdn" scheme="http://www.abudu.top/tags/cdn/"/>
+    
+    <category term="cloudflare" scheme="http://www.abudu.top/tags/cloudflare/"/>
+    
+    <category term="免费cdn" scheme="http://www.abudu.top/tags/%E5%85%8D%E8%B4%B9cdn/"/>
+    
+  </entry>
+  
+</feed>
